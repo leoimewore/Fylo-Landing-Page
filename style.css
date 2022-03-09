@@ -53,7 +53,7 @@ header {
     list-style-type: none;
     display: flex;
     gap: 2em;
-    max-width: 100%;
+    width: 100%;
 }
 
 /* .nav-bar ul li {
@@ -121,7 +121,12 @@ button {
     font-style: normal;
     line-height: 16px;
     border-radius: 3.125px;
+    border: 0.6px solid hsl(224, 93%, 58%) ;
     
+}
+
+button:active {
+    background-color:hsl(224, 87%, 76%);
 }
 .section-two-container {
     max-width: 100%;
@@ -298,6 +303,7 @@ h3 {
 .sign-up {
     width: 40%;
     /* flex-shrink: 0; */
+    
 }
 footer {
     background-color: #07043B;
@@ -375,6 +381,10 @@ footer {
     /* flex-shrink: 0; */
 }
 
+.bottom-nav-bar ul li:hover {
+  color:hsl(238, 22%, 44%);
+}
+
 
 
 
@@ -439,6 +449,7 @@ footer {
 
     .sign-up {
         width:80%;
+        margin-bottom: 3em;
     }
 
 footer {
@@ -492,7 +503,17 @@ footer {
     width: 55%;
 }
 
-   
+ .nav-bar ul {
+
+   gap:0.5em;
+   width: 100%;
+   flex-shrink: 0;
+     
+ } 
+ 
+ header > div {
+   width: 30%;
+ }
     
     
     
@@ -501,7 +522,7 @@ footer {
 
  
 
-}
+
 
 
 
