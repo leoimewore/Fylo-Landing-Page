@@ -130,6 +130,8 @@ button:active {
 }
 .section-two-container {
     max-width: 100%;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
 }
 .section-two {
     max-width: 91.4%;
@@ -245,6 +247,7 @@ h3 {
     margin-top: 107px;
     background: #575988;
     min-height: 400px;
+    
 }
 
 .section-three-wrapper {
